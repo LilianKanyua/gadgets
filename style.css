@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #333;
+    color: #fff;
+    padding: 12px;
+   
+  }
+nav h1 {
+    margin: 0;
+  }
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 4rem;
+}
+nav li {
+    margin: 0 10px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+nav i{
+    margin-left: 5%;
+    font-size: 2rem;
+}
+nav i {
+    font-size: 2rem;
+    margin-right: 10px;
+    color: #fff;
+}
+nav button {
+    background-color: #FCC419;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  #logo{
+      width:50px;
+      margin-left: 30%;
+  }
+ 
+.cont_one{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+
+   
+    margin-top: 2%;
+}
+#head{
+    font-size: 50px;
+}
+.cont_two{
+    background-image: url(/images/tech1.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 60px 0px;
+    margin-top: 3%;
+}
+#par_one{
+font-size: 25px;
+margin-left: 4%;
+}
+#order{
+    padding: 20px;
+    border-radius: 5px;
+    margin-left: 5%;
+    margin-top: 4%;
+    background-color: yellow;
+    border:1px solid yellow;
+}
+#explore{
+    padding: 20px;
+    border-radius: 5px;
+    margin-left: 3%;
+    margin-top: 4%;
+}
+#deal{
+    margin-top: 4%;
+}
+#search{
+    width:50%;
+    margin-left: -50%;
+}
+#img1{
+    width: 90px;
+    height: 90px;
+   
+}
+.box1,.box2,.box3,.box4,.box5,.box6{
+    border: 1px solid black;
+    margin-left: 5%;
+    align-items: center;
+}
+  
+.sec_two{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 4%;
+    padding: 7% 0%;
+}
+#head,#cam,#low{
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+.testimonial{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 7% 0%;
+}
+.sec_seven{
+    margin-top: 3%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 7% 0%;
+}
+#news{
+    font-size: 30px;
+}
+#bt{
+    width:80px;
+    margin-top: -8%;
+}
+#email{
+   padding: 3% 10%  3%;
+   background-color: #FCC419;
+   border:1px #FCC419;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 3%;
+    background-color: rgba(165, 42, 42, 0.822);
+    padding: 4%;
+}
