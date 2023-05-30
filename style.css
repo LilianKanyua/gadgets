@@ -55,7 +55,7 @@ nav button {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: space-between;
-
+    margin-bottom: 2%;
    
     margin-top: 2%;
 }
@@ -63,11 +63,31 @@ nav button {
     font-size: 50px;
 }
 .cont_two{
-    background-image: url(/images/tech1.jpg);
+    background-image: url(/images/img1.avif);
     background-position: center;
     background-size: cover;
-    padding: 60px 0px;
-    margin-top: 3%;
+    padding: 15% 0%;
+    margin-top: 3% 2%;
+    
+}
+#project,#cameroon{
+    margin-left: 20%;
+}
+#monial{
+    margin-left: 40%;
+    font-size: 40px;
+}
+#test{
+    font-size: 27px;
+    margin-left: 7%;
+}
+#customer1{
+    font-size: 25px;
+    padding: 10%;
+}
+#mans{
+    width:400px;
+    height: 400px;
 }
 #par_one{
 font-size: 25px;
@@ -97,12 +117,17 @@ margin-left: 4%;
 #img1{
     width: 90px;
     height: 90px;
+    margin-left: 20%;
    
+}
+#img2{
+    width:80%;
 }
 .box1,.box2,.box3,.box4,.box5,.box6{
     border: 1px solid black;
     margin-left: 5%;
     align-items: center;
+    padding: 13%;
 }
   
 .sec_two{
@@ -144,4 +169,15 @@ margin-left: 4%;
     margin-top: 3%;
     background-color: rgba(165, 42, 42, 0.822);
     padding: 4%;
+}
+#sec_three{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.products{
+    border:solid rgb(15, 207, 207);
+    border-radius: 8px;
+    margin-bottom: 3%;
+    text-align: center;
 }
