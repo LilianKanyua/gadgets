@@ -203,6 +203,7 @@ button{
    .sec_two{
        display: grid;
        grid-template-columns: 1fr 1fr 1fr;
+       grid-template-rows: 1fr 1fr;
    }
    .testimonial{
        display: grid;
@@ -225,4 +226,10 @@ button{
    #mans{
        width:70%;
    }
+   .footer{
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr;
+       grid-template-rows: 1fr 1fr;
+   }
+
     }
